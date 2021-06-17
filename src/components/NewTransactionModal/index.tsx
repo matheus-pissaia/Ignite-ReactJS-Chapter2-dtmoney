@@ -18,9 +18,18 @@ export function NewTransactionModal({ isOpen, onRequestClose }: NewTransactionMo
       <Container>
         <h2>Cadastrar Transação</h2>
 
-        <input placeholder="Título" />
-        <input type="number" placeholder="Valor" />
-        <input placeholder="Categoria" />
+        <input
+          placeholder="Título"
+        />
+
+        <input
+          type="number"
+          placeholder="Valor"
+        />
+
+        <input
+          placeholder="Categoria"
+        />
 
         <button type="submit">
           Cadastrar
