@@ -20,6 +20,7 @@ createServer({
           title: 'Freelance de Website',
           type: 'deposit',
           amount: 6000,
+          category: 'Salário',
           createdAt: new Date('2021-05-21 10:00:00')
         },
         {
@@ -27,6 +28,7 @@ createServer({
           title: 'Aluguel',
           type: 'withdraw',
           amount: 1100,
+          category: 'Despesas',
           createdAt: new Date('2021-05-25 12:00:00')
         }
       ]
